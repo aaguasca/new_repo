@@ -3,4 +3,4 @@ class DB:
         self.name=name
         self.address=address
     def __str__(self):
-        return "Name:{}; Address:{}".format(self.name, self.addres)
+        return "Name:{}; Address:{}".format(self.name, self.address)
